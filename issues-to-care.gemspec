@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
   # https://github.com/rest-client/rest-client
   gem.add_dependency %q<rest-client>
 
+  gem.add_dependency %q<activesupport> # for Rails.cache
+
   gem.author = "Bartosz \"V.\" Bentkowski"
   gem.email  = "bartosz.bentkowski@gmail.com"
   gem.homepage = "https://github.com/vforge/issues-to-care"
